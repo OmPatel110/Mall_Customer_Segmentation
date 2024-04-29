@@ -18,7 +18,7 @@ def plot_clusters(df, user_point=None):
     
     # Highlight the user point if provided
     if user_point:
-        ax.scatter(user_point[0], user_point[1], color='black', marker='o', s=80, label='User Point')
+        ax.scatter(user_point[0], user_point[1], color='black', marker='o', s=80, label='Predicted Customer')
         ax.legend()
 
     # Show the plot
