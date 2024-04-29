@@ -41,7 +41,7 @@ def main():
     """
     # Display the styled title with emoji
     st.markdown(title_style, unsafe_allow_html=True)
-    st.markdown("<h1 class='title-text'>🌟 Unveiling Shopping Personalities: Customer Segmentation 🛍️</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title-text'>🔍 Revealing Shopping Personalities: Customer Segmentation 🛍️</h1>", unsafe_allow_html=True)
 
     # Set input field width
     st.markdown(
